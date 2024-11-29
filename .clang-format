@@ -1,0 +1,37 @@
+BasedOnStyle: LLVM
+AlignArrayOfStructures: Right
+AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveBitFields: Consecutive
+AlignConsecutiveDeclarations: Consecutive
+AlignConsecutiveMacros: Consecutive
+AlignConsecutiveShortCaseStatements:
+  Enabled: true
+  AlignCaseColons: true
+AlignConsecutiveTableGenBreakingDAGArgColons: Consecutive
+AlignConsecutiveTableGenCondOperatorColons: Consecutive
+AlignConsecutiveTableGenDefinitionColons: Consecutive
+AlignEscapedNewlines: Left
+AllowShortBlocksOnASingleLine: Always
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: Always
+AllowShortLoopsOnASingleLine: true
+BreakBeforeBraces: Custom
+BraceWrapping:
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+BreakBeforeBinaryOperators: All
+BreakInheritanceList: BeforeComma
+CompactNamespaces: true
+IndentCaseLabels: true
+IndentPPDirectives: BeforeHash
+IndentWrappedFunctionNames: true
+InsertNewlineAtEOF: true
+IntegerLiteralSeparator:
+  Binary: 4
+  Decimal: 3
+  Hex: 2
+KeepEmptyLinesAtTheStartOfBlocks: false
+MaxEmptyLinesToKeep: 2
+SpaceAfterLogicalNot: true
+PointerAlignment: Left
